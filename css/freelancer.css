@@ -304,6 +304,9 @@ section.success {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+.text-danger{
+  color: #FF5252;
+}
 footer {
   color: white;
 }
@@ -333,7 +336,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #B2DFDB;
+  color: #00796B;
   background: white;
   border: solid 2px white;
 }
