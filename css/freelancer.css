@@ -325,7 +325,7 @@ footer .footer-below {
   color: white;
   font-size: 20px;
   border: solid 2px white;
-  background: transparent;
+  background: #00796B;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
