@@ -66,6 +66,19 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+#imgModal1, #imgModal2, #imgModal2{
+  width: 100%;
+}
+.portfolio-link h1{
+  color: #009688;
+  text-align: center;
+}
+#portfolioTitle{
+  padding-bottom: 50px;
+}
+#about h2, #about p{
+  color: #009688;
+}
 header {
   text-align: center;
   background: #B2DFDB;

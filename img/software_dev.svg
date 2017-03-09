@@ -1,3 +1,69 @@
-<svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 150 187.5" style="enable-background:new 0 0 150 150;" xml:space="preserve"><style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 138 93.399999"
+   xml:space="preserve"
+   id="svg12"
+   sodipodi:docname="software_dev.svg"
+   width="138"
+   height="93.400002"
+   inkscape:version="0.92.0 r15299"><metadata
+     id="metadata18"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs16" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     id="namedview14"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="9"
+     fit-margin-right="9"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.2586667"
+     inkscape:cx="69"
+     inkscape:cy="27.950036"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" /><style
+     type="text/css"
+     id="style2">
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-linecap:square;stroke-miterlimit:10;}
-</style><switch><foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"/><g i:extraneous="self"><circle class="st0" cx="-93.7" cy="17.3" r="0"/><path d="M128.5,28.3h-107c-3.6,0-6.5,2.9-6.5,6.5v61.9c0,3.6,2.9,6.5,6.5,6.5h44v6.2L52.1,115c-1.6,0.7-2.4,2.3-2.1,3.9    c0.3,1.7,1.7,2.8,3.4,2.8h43.2c1.7,0,3.1-1.2,3.4-2.8c0.3-1.7-0.5-3.3-2.1-3.9l-13.4-5.6v-6.2h44c3.6,0,6.5-2.9,6.5-6.5V34.8    C135,31.2,132.1,28.3,128.5,28.3z M45.4,80.3l-2.5-2.5c-0.2-0.2-0.2-0.5,0-0.7l8.5-8.5c0.1-0.1,0.3-0.1,0.4-0.1    c0.1,0,0.2,0,0.4,0.1l2.5,2.5c1.1,1.1,2.8,1.3,4.2,0.6c2.2-1.2,4.6-2.2,7-2.9c1.5-0.4,2.6-1.8,2.6-3.4v-3.5c0-0.3,0.2-0.5,0.5-0.5    H81c0.3,0,0.5,0.2,0.5,0.5v3.5c0,1.6,1.1,3,2.6,3.4c2.4,0.7,4.8,1.7,7,2.9c1.4,0.8,3.1,0.5,4.2-0.6l2.5-2.5    c0.1-0.1,0.3-0.1,0.4-0.1c0.1,0,0.2,0,0.4,0.1l8.5,8.5c0.2,0.2,0.2,0.5,0,0.7l-2.5,2.5c-1.1,1.1-1.3,2.8-0.6,4.2    c1.2,2.2,2.2,4.6,2.9,7c0.4,1.5,1.8,2.6,3.4,2.6h3.5c0.3,0,0.5,0.2,0.5,0.5v3.5H94.9c-0.8-6.3-4.5-11.9-10.1-15.1    c-7.3-4.1-16.8-3.2-23.1,2.4c-3.7,3.3-6.1,7.8-6.7,12.7H35.7v-3.5c0-0.3,0.2-0.5,0.5-0.5h3.5c1.6,0,3-1.1,3.4-2.6    c0.7-2.4,1.7-4.8,2.9-7C46.7,83.1,46.5,81.4,45.4,80.3z M89.1,116.7H60.9l9.6-4v-9.6h9.1v9.6L89.1,116.7z M65.5,98.2L65.5,98.2    l-7.4,0c0.6-4,2.6-7.7,5.7-10.4c5.4-4.7,13.4-5.5,19.7-2c4.6,2.6,7.7,7.2,8.5,12.5h-7.4v0H65.5z M130,96.7c0,0.8-0.7,1.5-1.5,1.5    h-11.2v-3.5c0-1.9-1.6-3.5-3.5-3.5h-3.5c-0.2,0-0.4-0.2-0.5-0.4c-0.8-2.6-1.8-5.2-3.2-7.6c-0.1-0.2-0.1-0.5,0.1-0.6l2.5-2.5    c1.4-1.4,1.4-3.6,0-5l-8.5-8.5c-1.3-1.3-3.6-1.3-5,0l-2.5,2.5c-0.2,0.2-0.4,0.2-0.6,0.1c-2.4-1.4-5-2.4-7.6-3.2    c-0.2-0.1-0.4-0.3-0.4-0.5v-3.5c0-1.9-1.6-3.5-3.5-3.5H69c-1.9,0-3.5,1.6-3.5,3.5v3.5c0,0.2-0.2,0.4-0.4,0.5    c-2.6,0.8-5.2,1.8-7.6,3.2c-0.2,0.1-0.5,0.1-0.6-0.1l-2.5-2.5c-1.3-1.3-3.6-1.3-5,0L40.8,75c-1.4,1.4-1.4,3.6,0,5l2.5,2.5    c0.2,0.2,0.2,0.4,0.1,0.6c-1.4,2.4-2.4,5-3.2,7.6c-0.1,0.2-0.3,0.4-0.5,0.4h-3.5c-1.9,0-3.5,1.6-3.5,3.5v3.5H21.5    c-0.8,0-1.5-0.7-1.5-1.5V34.8c0-0.8,0.7-1.5,1.5-1.5h107c0.8,0,1.5,0.7,1.5,1.5V96.7z"/></g></switch></svg>
+</style><switch
+     id="switch10"
+     transform="translate(-6,-28.3)"><foreignObject
+       requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+       x="0"
+       y="0"
+       width="1"
+       height="1" /><g
+       i:extraneous="self"
+       id="g8"><circle
+         class="st0"
+         cx="-93.699997"
+         cy="17.299999"
+         r="0"
+         id="circle4"
+         style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-linecap:square;stroke-miterlimit:10" /><path
+         d="m 128.5,28.3 h -107 c -3.6,0 -6.5,2.9 -6.5,6.5 v 61.9 c 0,3.6 2.9,6.5 6.5,6.5 h 44 v 6.2 L 52.1,115 c -1.6,0.7 -2.4,2.3 -2.1,3.9 0.3,1.7 1.7,2.8 3.4,2.8 h 43.2 c 1.7,0 3.1,-1.2 3.4,-2.8 0.3,-1.7 -0.5,-3.3 -2.1,-3.9 l -13.4,-5.6 v -6.2 h 44 c 3.6,0 6.5,-2.9 6.5,-6.5 V 34.8 c 0,-3.6 -2.9,-6.5 -6.5,-6.5 z m -83.1,52 -2.5,-2.5 c -0.2,-0.2 -0.2,-0.5 0,-0.7 l 8.5,-8.5 c 0.1,-0.1 0.3,-0.1 0.4,-0.1 0.1,0 0.2,0 0.4,0.1 l 2.5,2.5 c 1.1,1.1 2.8,1.3 4.2,0.6 2.2,-1.2 4.6,-2.2 7,-2.9 1.5,-0.4 2.6,-1.8 2.6,-3.4 v -3.5 c 0,-0.3 0.2,-0.5 0.5,-0.5 h 12 c 0.3,0 0.5,0.2 0.5,0.5 v 3.5 c 0,1.6 1.1,3 2.6,3.4 2.4,0.7 4.8,1.7 7,2.9 1.4,0.8 3.1,0.5 4.2,-0.6 l 2.5,-2.5 c 0.1,-0.1 0.3,-0.1 0.4,-0.1 0.1,0 0.2,0 0.4,0.1 l 8.5,8.5 c 0.2,0.2 0.2,0.5 0,0.7 l -2.5,2.5 c -1.1,1.1 -1.3,2.8 -0.6,4.2 1.2,2.2 2.2,4.6 2.9,7 0.4,1.5 1.8,2.6 3.4,2.6 h 3.5 c 0.3,0 0.5,0.2 0.5,0.5 v 3.5 H 94.9 C 94.1,91.8 90.4,86.2 84.8,83 77.5,78.9 68,79.8 61.7,85.4 58,88.7 55.6,93.2 55,98.1 H 35.7 v -3.5 c 0,-0.3 0.2,-0.5 0.5,-0.5 h 3.5 c 1.6,0 3,-1.1 3.4,-2.6 0.7,-2.4 1.7,-4.8 2.9,-7 0.7,-1.4 0.5,-3.1 -0.6,-4.2 z m 43.7,36.4 H 60.9 l 9.6,-4 v -9.6 h 9.1 v 9.6 z M 65.5,98.2 v 0 h -7.4 c 0.6,-4 2.6,-7.7 5.7,-10.4 5.4,-4.7 13.4,-5.5 19.7,-2 4.6,2.6 7.7,7.2 8.5,12.5 h -7.4 v 0 H 65.5 Z M 130,96.7 c 0,0.8 -0.7,1.5 -1.5,1.5 h -11.2 v -3.5 c 0,-1.9 -1.6,-3.5 -3.5,-3.5 h -3.5 c -0.2,0 -0.4,-0.2 -0.5,-0.4 -0.8,-2.6 -1.8,-5.2 -3.2,-7.6 -0.1,-0.2 -0.1,-0.5 0.1,-0.6 l 2.5,-2.5 c 1.4,-1.4 1.4,-3.6 0,-5 l -8.5,-8.5 c -1.3,-1.3 -3.6,-1.3 -5,0 l -2.5,2.5 C 93,69.3 92.8,69.3 92.6,69.2 90.2,67.8 87.6,66.8 85,66 84.8,65.9 84.6,65.7 84.6,65.5 V 62 c 0,-1.9 -1.6,-3.5 -3.5,-3.5 H 69 c -1.9,0 -3.5,1.6 -3.5,3.5 v 3.5 c 0,0.2 -0.2,0.4 -0.4,0.5 -2.6,0.8 -5.2,1.8 -7.6,3.2 -0.2,0.1 -0.5,0.1 -0.6,-0.1 l -2.5,-2.5 c -1.3,-1.3 -3.6,-1.3 -5,0 L 40.8,75 c -1.4,1.4 -1.4,3.6 0,5 l 2.5,2.5 c 0.2,0.2 0.2,0.4 0.1,0.6 -1.4,2.4 -2.4,5 -3.2,7.6 -0.1,0.2 -0.3,0.4 -0.5,0.4 h -3.5 c -1.9,0 -3.5,1.6 -3.5,3.5 v 3.5 H 21.5 C 20.7,98.1 20,97.4 20,96.6 V 34.8 c 0,-0.8 0.7,-1.5 1.5,-1.5 h 107 c 0.8,0 1.5,0.7 1.5,1.5 z"
+         id="path6"
+         inkscape:connector-curvature="0" /></g></switch></svg>
