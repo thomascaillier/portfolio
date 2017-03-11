@@ -69,12 +69,12 @@ hr.star-primary:after {
 #imgModal1, #imgModal2, #imgModal2{
   width: 100%;
 }
+div.portfolio-item{
+  margin-top: 50px;
+}
 .portfolio-link h1{
   color: #009688;
   text-align: center;
-}
-#portfolioTitle{
-  padding-bottom: 50px;
 }
 #about h2, #about p{
   color: #009688;
@@ -208,7 +208,7 @@ section.success {
   }
 }
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
+  margin: 50px 0 15px;
   right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
@@ -252,7 +252,7 @@ section.success {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 50px 0 15px;
   }
 }
 .floating-label-form-group {
@@ -384,8 +384,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #B2DFDB;
-  border-color: #B2DFDB;
+  background-color: #00796B;
+  border-color: white;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -393,9 +393,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  color: #00796B;
+  background-color: #B2DFDB;
+  border-color: #00796B;
 }
 .btn-success:active,
 .btn-success.active,
