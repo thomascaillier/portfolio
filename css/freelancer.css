@@ -94,6 +94,12 @@ div.portfolio-item {
     text-align: center;
 }
 
+@media (max-width: 1100px) {
+  .portfolio-link h1 {
+    font-size: 25px;
+  }
+}
+
 #about h2,
 #about p {
     color: #009688;
