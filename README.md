@@ -15,11 +15,11 @@ __Thomas Caillier__
 
 ### Diplômes
 
-##### DUT informatique
+#### DUT informatique
 __Institut Universitaire de Technologie__ - 2017 - Calais
 
 
-##### BAC scientifique : option Informatique  et Sciences du Numérique
+#### BAC scientifique : option Informatique  et Sciences du Numérique
 __Lycée Giraux Sannier__ - 2015 - Boulogne-sur-Mer
 
 ### Expériences professionnelles
