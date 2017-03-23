@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="URL Utilities">
+    <meta name="author" content="Thomas Caillier">
+    <title>URL.io</title>
+    <!-- Lang indication for Google -->
+    <link rel="alternate" hreflang=fr href="http://thomasc.pro/url.io" />
+    <!-- CSS -->
+    <!-- Fonts -->
+</head>
+<style>
+    body,
+    html {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #FEFFF1;
+    }
+    
+    .io {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .io h1 {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 250%;
+        color: #2D2E30;
+        text-align: center;
+        margin: 0;
+        padding-top: 3%;
+    }
+    
+    .io .textarea {
+        background-color: #2D2E30;
+        color: white;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 30%;
+        font-size: 150%;
+        margin-top: 3%;
+        padding: 1%;
+    }
+    
+    .textarea span {
+        color: red;
+    }
+    
+    .hidden {
+        width: 100%;
+        font-size: 100%;
+        height: auto;
+        color: white;
+        border: none;
+        background: none;
+        overflow: hidden;
+        resize: none;
+    }
+
+</style>
+
+<body>
+    <div class="io" id="display_args">
+        <h1>Display arguments</h1>
+        <div class="textarea"></div>
+    </div>
+</body>
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/jquery.format/jquery.format.js"></script>
+<script>
+    function auto_grow(element) {
+        element.style.height = "5px";
+        element.style.height = (element.scrollHeight) + "px";
+    }
+
+    function getParams(param) {
+        var vars = {};
+        window.location.href.replace(location.hash, '').replace(new RegExp('[\+]', 'gi'), ' ').replace(
+            /[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+            function(m, key, value) { // callback
+                value = decodeURIComponent(value);
+                var a = "<textarea class='hidden' onkeyup='auto_grow(this)'>",
+                    b = "</textarea>";
+                try {
+                    $.parseXML(value);
+                } catch (e) {
+                    a = "";
+                    b = "";
+                }
+                value = a + value + b;
+                vars[key] = value !== undefined ? value : '';
+            }
+        );
+        if (param) {
+            return vars[param] ? vars[param] : null;
+        }
+        return vars;
+    }
+    var args = getParams();
+    for (arg in args) {
+        var newer = $(".textarea").prepend("<p><span>" + arg + " : </span>" + args[arg] + "</p>");
+        if ($(".textarea p").first().find("textarea").length > 0) {
+            $(".textarea p").first().find("textarea").format({
+                method: 'xml'
+            });
+            auto_grow($(".textarea p").first().find("textarea").get(0));
+        }
+    }
+
+</script>
+
+</html>

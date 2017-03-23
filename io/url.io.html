@@ -19,6 +19,7 @@
         margin: 0;
         width: 100%;
         height: 100%;
+        background-color: #FEFFF1;
     }
     
     .io {
@@ -56,10 +57,21 @@
         <h1>URL Decoder / Encoder</h1>
         <textarea class="encoded" placeholder="Type to decode"></textarea>
         <textarea class="decoded" placeholder="Type to encode"></textarea>
+        <a id="goToDisplay" href ="displayArgs.io.html">Display args</a>
     </div>
 </body>
 <script src="/vendor/jquery/jquery.min.js"></script>
 <script>
+    function getParams(url) {
+        var vars = {};
+        url.replace(
+            /[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+            function(m, key, value) { // callback
+                vars[key] = value !== undefined ? value : '';
+            }
+        );
+        return vars;
+    }
     $("textarea").bind("propertychange change click keyup input paste", function(event) {
         if ($(this).hasClass("encoded")) {
             try {
@@ -68,6 +80,9 @@
                 var a = "-";
             }
             $(".decoded").val(a);
+            var url = "displayArgs.io.html?"+$.param(getParams(a));
+            console.log(url);
+            $("#goToDisplay").prop("href",url);
         } else {
             try {
                 var a = encodeURIComponent($(this).val());
@@ -77,7 +92,6 @@
             $(".encoded").val(a);
         }
     });
-
 </script>
 
 </html>
