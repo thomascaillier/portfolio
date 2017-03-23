@@ -14,6 +14,10 @@
     <!-- Fonts -->
 </head>
 <style>
+    * {
+        font-family: sans-serif;
+    }
+    
     body,
     html {
         margin: 0;
@@ -34,17 +38,17 @@
         color: #2D2E30;
         text-align: center;
         margin: 0;
-        padding-top: 3%;
+        padding-top: 1.5%;
     }
     
     .io .textarea {
         background-color: #2D2E30;
         color: white;
-        min-width: 100%;
+        min-width: 98%;
         max-width: 100%;
         min-height: 30%;
         font-size: 150%;
-        margin-top: 3%;
+        margin-top: 1.5%;
         padding: 1%;
     }
     
@@ -61,14 +65,17 @@
         background: none;
         overflow: hidden;
         resize: none;
+        font-family: inherit;
     }
-
 </style>
 
 <body>
     <div class="io" id="display_args">
         <h1>Display arguments</h1>
-        <div class="textarea"></div>
+<!--        <textarea id="before" class="textarea">
+        </textarea>-->
+        <div id="after" class="textarea">
+        </div>
     </div>
 </body>
 <script src="/vendor/jquery/jquery.min.js"></script>
@@ -85,7 +92,7 @@
             /[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
             function(m, key, value) { // callback
                 value = decodeURIComponent(value);
-                var a = "<textarea class='hidden' onkeyup='auto_grow(this)'>",
+                var a = "<textarea class='hidden' onkeyup='auto_grow(this)' readonly>",
                     b = "</textarea>";
                 try {
                     $.parseXML(value);
@@ -103,16 +110,16 @@
         return vars;
     }
     var args = getParams();
+    //$("#before").text(window.location.href);
     for (arg in args) {
-        var newer = $(".textarea").prepend("<p><span>" + arg + " : </span>" + args[arg] + "</p>");
-        if ($(".textarea p").first().find("textarea").length > 0) {
-            $(".textarea p").first().find("textarea").format({
+        var newer = $("#after").prepend("<p><span>" + arg + " : </span>" + args[arg] + "</p>");
+        if ($("#after p").first().find("textarea").length > 0) {
+            $("#after p").first().find("textarea").format({
                 method: 'xml'
             });
-            auto_grow($(".textarea p").first().find("textarea").get(0));
+            auto_grow($("#after p").first().find("textarea").get(0));
         }
     }
-
 </script>
 
 </html>

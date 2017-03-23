@@ -14,6 +14,9 @@
     <!-- Fonts -->
 </head>
 <style>
+    *{
+        font-family: sans-serif;
+    }
     body,
     html {
         margin: 0;
@@ -34,7 +37,7 @@
         color: #2D2E30;
         text-align: center;
         margin: 0;
-        padding-top: 3%;
+        padding-top: 1.5%;
     }
     
     .io textarea {
@@ -42,13 +45,30 @@
         color: white;
         min-width: 100%;
         max-width: 100%;
-        height: 30%;
+        height: 33%;
         font-size: 200%;
-        margin-top: 3%;
+        margin-top: 1.5%;
         box-sizing: border-box;
     }
     
-    textarea.entry {}
+    #goToDisplay{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 1%;
+        width: 20%;
+        padding: 1%;
+        font-size: 250%;
+        border: 10px solid #2D2E30;
+        background-color: #2D2E30;
+        color: #FEFFF1;
+        text-decoration: none;
+    }
+    
+    #goToDisplay:hover{
+        background-color: #FEFFF1;
+        color: #2D2E30;
+    }
 
 </style>
 
@@ -57,11 +77,12 @@
         <h1>URL Decoder / Encoder</h1>
         <textarea class="encoded" placeholder="Type to decode"></textarea>
         <textarea class="decoded" placeholder="Type to encode"></textarea>
-        <a id="goToDisplay" href ="displayArgs.io.html">Display args</a>
+        <a id="goToDisplay" href ="displayArgs.io.html">DISPLAY ARGS</a>
     </div>
 </body>
 <script src="/vendor/jquery/jquery.min.js"></script>
 <script>
+    $("#goToDisplay").hide();
     function getParams(url) {
         var vars = {};
         url.replace(
@@ -74,15 +95,18 @@
     }
     $("textarea").bind("propertychange change click keyup input paste", function(event) {
         if ($(this).hasClass("encoded")) {
+            var b = true;
             try {
                 var a = decodeURIComponent($(this).val());
             } catch (e) {
                 var a = "-";
+                b = false;
             }
             $(".decoded").val(a);
             var url = "displayArgs.io.html?"+$.param(getParams(a));
-            console.log(url);
             $("#goToDisplay").prop("href",url);
+            if(b && $.param(getParams(a))){$("#goToDisplay").show();}
+            else{$("#goToDisplay").hide();}
         } else {
             try {
                 var a = encodeURIComponent($(this).val());
