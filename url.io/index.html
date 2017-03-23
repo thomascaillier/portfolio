@@ -14,16 +14,19 @@
     <!-- Fonts -->
 </head>
 <style>
-    body, html {
+    body,
+    html {
         margin: 0;
         width: 100%;
         height: 100%;
     }
-    .io{
+    
+    .io {
         width: 100%;
         height: 100%;
     }
-    .io h1{
+    
+    .io h1 {
         font-family: sans-serif;
         font-weight: bold;
         font-size: 250%;
@@ -32,6 +35,7 @@
         margin: 0;
         padding-top: 3%;
     }
+    
     .io textarea {
         background-color: #2D2E30;
         color: white;
@@ -50,19 +54,28 @@
 <body>
     <div class="io" id="decoder_encoder">
         <h1>URL Decoder / Encoder</h1>
-        <textarea class="entry"></textarea>
-        <textarea class="result"></textarea>
+        <textarea class="encoded" placeholder="Type to decode"></textarea>
+        <textarea class="decoded" placeholder="Type to encode"></textarea>
     </div>
 </body>
 <script src="/vendor/jquery/jquery.min.js"></script>
 <script>
-    $(".entry").bind("propertychange change click keyup input paste", function(event) {
-        try {
-            var a = decodeURIComponent($(this).val());
-        } catch (e) {
-            var a = "-";
+    $("textarea").bind("propertychange change click keyup input paste", function(event) {
+        if ($(this).hasClass("encoded")) {
+            try {
+                var a = decodeURIComponent($(this).val());
+            } catch (e) {
+                var a = "-";
+            }
+            $(".decoded").val(a);
+        } else {
+            try {
+                var a = encodeURIComponent($(this).val());
+            } catch (e) {
+                var a = "-";
+            }
+            $(".encoded").val(a);
         }
-        $(this).next(".result").val(a);
     });
 
 </script>
