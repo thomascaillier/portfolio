@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: http://thomasc.pro/doc/CV Thomas CAILLIER.pdf
