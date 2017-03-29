@@ -89,7 +89,8 @@ div.portfolio-item {
     margin-top: 50px;
 }
 
-.portfolio-link h1 {
+.portfolio-link h2 {
+    padding-top: 10px;
     color: #009688;
     text-align: center;
 }
