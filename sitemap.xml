@@ -8,12 +8,42 @@
 
 <url>
   <loc>http://thomasc.pro/</loc>
-  <lastmod>2017-03-11T21:40:21+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://thomasc.pro/doc/CV(v3).pdf</loc>
-  <lastmod>2017-03-11T21:40:21+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://thomasc.pro/ingenierie_logicielle.html</loc>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thomasc.pro/applications_mobiles.html</loc>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thomasc.pro/developpement_web.html</loc>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thomasc.pro/io/</loc>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thomasc.pro/index.html</loc>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thomasc.pro/io/url.io.html</loc>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://thomasc.pro/io/displayArgs.io.html</loc>
+  <lastmod>2017-03-29T09:09:43+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
