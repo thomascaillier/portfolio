@@ -65,6 +65,13 @@
         text-decoration: none;
     }
     
+    #goToDisplay[disabled="disabled"]{
+        pointer-events: none;
+        background-color: #7D7E80;
+        border: none;
+        margin-top: calc(1% + 10px);
+    }
+
     #goToDisplay:hover{
         background-color: #FEFFF1;
         color: #2D2E30;
@@ -83,7 +90,7 @@
 <script src="/vendor/jquery/jquery.min.js"></script>
 <script>
     $("textarea.encoded").focus();
-    $("#goToDisplay").hide();
+    $("#goToDisplay").attr("disabled","true");
     function getParams(url) {
         var vars = {};
         url.replace(
@@ -106,8 +113,8 @@
             $(".decoded").val(a);
             var url = "displayArgs.io.html?"+$.param(getParams(a));
             $("#goToDisplay").prop("href",url);
-            if(b && $.param(getParams(a))){$("#goToDisplay").show();}
-            else{$("#goToDisplay").hide();}
+            if(b && $.param(getParams(a))){$("#goToDisplay").removeAttr("disabled");}
+            else{$("#goToDisplay").attr("disabled","true");}
         } else {
             try {
                 var a = encodeURIComponent($(this).val());
