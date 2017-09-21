@@ -22,7 +22,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="chrome-webstore-item" href="chrome.google.com/webstore/detail/pgpielmoabeilgnlafngddeaomoaggog">
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/pgpielmoabeilgnlafngddeaomoaggog">
 </head> 
 <body id="page-top" class="index">
     <div id="skipnav"><a href="#maincontent">Aller au contenu principal</a></div>
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="row" style="text-align:center; padding-top: 80px;">
-                <button onclick="chrome.webstore.install()" style="margin-bottom: 90px; font-size: 22px;">
+                <button id="install-button" onclick="chrome.webstore.install()" style="margin-bottom: 90px; font-size: 22px;">
                     <img src="/img/google-chrome-logo.png" style="width: 30px; margin-right: 8px; margin-bottom: 2px;">Add to Chrome</button>
                 <p>Simple Chrome extension which let you integrate jQuery 3.2.1 in every frame of your active tab, by 1 click.</p>
             </div>
@@ -94,6 +94,9 @@
     <!-- Google Structured data -->
     <!-- Google Analytics -->
     <script>
+        if (chrome.app.isInstalled) {
+  document.getElementById('install-button').style.display = 'none';
+}
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function() {
