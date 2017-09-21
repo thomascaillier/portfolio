@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chrome extension page: Quick jQuery integration">
+    <meta name="author" content="Thomas Caillier">
+    <title>thomasc / Quick jQuery integration</title>
+    <!-- Lang indication for Google -->
+    <link rel="alternate" hreflang=fr href="http://thomasc.pro/io/quickjquery" />
+    <!-- Bootstrap CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="/css/freelancer.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="chrome-webstore-item" href="chrome.google.com/webstore/detail/pgpielmoabeilgnlafngddeaomoaggog">
+</head> 
+<body id="page-top" class="index">
+    <div id="skipnav"><a href="#maincontent">Aller au contenu principal</a></div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="../">Thomas Caillier</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Utilitaires</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="portfolio" class="ioUtils" style="padding-top: 150px;">
+        <div class="container">
+            <div id="portfolioTitle" class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Quick jQuery integration</h2>
+                    <hr class="star-primary">
+                    <h3>Chrome extension page</h3>
+                </div>
+            </div>
+            <div class="row" style="text-align:center; padding-top: 80px;">
+                <button onclick="chrome.webstore.install()" style="margin-bottom: 90px; font-size: 22px;">
+                    <img src="/img/google-chrome-logo.png" style="width: 30px; margin-right: 8px; margin-bottom: 2px;">Install <b>Quick jQuery integration</b></button>
+                <p>Simple Chrome extension which let you integrate jQuery 3.2.1 in every frame of your active tab, by 1 click.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; thomasc.pro 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+    <!-- jQuery -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="/js/freelancer.min.js"></script>
+    <!-- Google Structured data -->
+    <!-- Google Analytics -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-93436251-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
