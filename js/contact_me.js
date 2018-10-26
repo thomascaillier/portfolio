@@ -23,13 +23,7 @@ $(function() {
             $.ajax({
                 url: "https://formspree.io/thomascaillier@gmail.com",
                 type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
-                dataType: "json",
+                data: "name=" + encodeURI(name) + "&phone=" + encodeURI(phone) + "&email=" + encodeURI(email) + "&message=" + encodeURI(message),
                 cache: false,
                 success: function() {
                     // Enable button & show success message
